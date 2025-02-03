@@ -27,8 +27,8 @@ metadata:
 spec:
   selector:
     app: test-cicd
-  type: LoadBalancer
   ports:
    -  protocol: TCP
       port: 80
       targetPort: 3000            
+  type: LoadBalancer
